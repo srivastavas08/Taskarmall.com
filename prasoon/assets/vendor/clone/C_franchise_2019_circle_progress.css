@@ -1,0 +1,35 @@
+/* ************************************************** .circle-process ****************************** */
+  .circle-progress { 
+    width: 100%; 
+    padding: 28px;
+    position: relative;  
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  .circle-progress-indicator {
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  .circle-progress-text {
+    position: absolute;
+    top: 35%;
+    left: 40px;
+    right: 40px;
+    text-align: center;
+    font-size: 33px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 600; 
+  }
+  .circle-progress-text span {
+    position: relative;
+    font-size: 27px;
+    line-height: 50px;
+  }
+  .circle-progress-text strong {
+    position: relative;
+    font-size: 70px;
+    top: 10px;
+  }

@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^taskarmall\.as\.in$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.taskarmall\.as\.in$
+RewriteRule ^/?$ "http\:\/\/www\.taskarmall\.com" [R=301,L]
+
